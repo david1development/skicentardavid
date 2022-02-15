@@ -509,8 +509,17 @@ body {
     .skimakers img {
         width: 60px;
     }
+    .otp1 ul {
+        text-align: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25px;
+    }
     .otp1 ul a {
-        font-size: 11px;
+        font-size: 13px;
+        margin-left: 10px;
     }
     .box1 {
         transform: scale(0.9);
@@ -519,6 +528,10 @@ body {
     .box2 {
         transform: scale(0.9);
         margin-bottom: -20px;
+    }
+    .navigation {
+        width: 0;
+        display: none;
     }
 }
 
@@ -622,6 +635,8 @@ footer {
 }
 
 .napomena {
+    margin-top: 15px;
     font-size: 15px;
     text-align: center;
+    color: red;
 }
